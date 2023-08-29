@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.links a {
+    font-size: 18px;
+    color:#f9faf8;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.home { 
+    margin-left: auto;
+}
+
