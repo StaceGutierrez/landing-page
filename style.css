@@ -95,38 +95,33 @@ button { /*This applies to both bottons*/
     align-items: center;
     justify-content: center;
     gap: 10px;
-    height: 500px;
+    height: auto;
     flex-wrap: wrap;
+    text-align: center;
+    flex: 1 1 auto;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    margin-top: 20px;
 }
 
 .images {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     max-width: 1500px;
     align-items: center;
     flex-wrap: wrap;
 }
 
-/*.img-grp{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}*/
-
-.img {
-    border: 2px solid #1f2937;
-    width: 100px; 
+img {
+    width: 200px; 
     height: 100px;
-    border-radius: 10px;
+    height: auto;
+    padding: 20px;
 }
 
 .pic-text {
@@ -134,21 +129,17 @@ button { /*This applies to both bottons*/
     flex-wrap: wrap;
     font-size: 18px;
     color: #1f2937;
+    max-width: 300px;
     text-align: center;
-}
-
-.images img {
-    width: 50%;
-    height: auto;
-    padding: 20px;
 }
 
 .book-one, .book-two, .book-three, .book-four {
     display: flex;
-    flex: 1;
+    flex: 1 1 auto;
     flex-direction: column;
     align-self: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 /*QUOTE BLOCK*/
