@@ -110,15 +110,18 @@ button { /*This applies to both bottons*/
     gap: 10px;
     justify-content: center;
     max-width: 1500px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.img-grp{
+/*.img-grp{
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
+}*/
+
 .img {
     border: 2px solid #1f2937;
     width: 100px; 
@@ -129,6 +132,9 @@ button { /*This applies to both bottons*/
 .pic-text {
     display:flex;
     flex-wrap: wrap;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
 }
 
 .images img {
@@ -138,7 +144,11 @@ button { /*This applies to both bottons*/
 }
 
 .book-one, .book-two, .book-three, .book-four {
+    display: flex;
     flex: 1;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
 }
 
 /*QUOTE BLOCK*/
