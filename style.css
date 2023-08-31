@@ -43,6 +43,7 @@
     justify-content: center;
     align-items: center;
     height: 300px;
+    flex-shrink: 1;
 }
 
 .text-block {
@@ -57,7 +58,7 @@
 
 .upper-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
 }
 
 .lower-text {
@@ -78,9 +79,86 @@ button {
     height: 200px;
     background-color: #5a5c5e;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     margin: 20px;
-    
 }
+
+/* INFO CONTAINER*/
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 800px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-grp{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img {
+    border: 2px solid #1f2937;
+    width: 100px; 
+    height: 100px;
+    border-radius: 10px;
+}
+
+.pic-text {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+}
+
+.book-one {
+    flex: 1.33;
+}
+
+.book-two {
+    flex: 1.33;
+}
+
+.book-three {
+    flex: 1.33;
+}
+
+.book-four {
+    flex: 1.33;
+}
+
+/*QUOTE BLOCK*/
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
